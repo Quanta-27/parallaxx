@@ -1,0 +1,66 @@
+html,body{
+    margin:0;
+    height:100%;
+    line-height: 1.8em;
+    background-color: #666;
+   width:100%;
+   overflow-x: hidden;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+}
+.sect{
+    font-size: 20px;
+    background-image: url(images/nature1.jpeg);
+    min-height: 100%;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    font-family: 'Arima', cursive;
+   
+}
+.sect ,.sect2,.sect3{
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sect2{
+    background-image: url("Images/nature22.jpeg");
+    min-height: 400px;
+
+}
+.bgtext{
+ position: absolute;
+  top:50%; width:100%; padding:4px;
+  text-align: center;
+  background-color: rgba(253, 9, 9, 0.523);
+  letter-spacing: 8px;
+  text-transform: lowercase;
+}
+.ptext1{
+    padding:15px;
+}
+.sect1 .ptext1 .bgtext1{
+    font-size:15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.section1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:29px;
+    letter-spacing:8px;
+    display:block;
+    margin-top:12px;
+    color:aliceblue;
+    text-align: center;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+}
+.content1{
+    font-family: 'Arimo', sans-serif;
+    color:white;
+    text-align: center;
+}
+.sect3{
+    background-image: url("Images/nature33.jpeg");
+    min-height: 400px;
+}
